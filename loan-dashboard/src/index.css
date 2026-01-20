@@ -1,0 +1,49 @@
+/* --- COPY VÀO src/index.css --- */
+
+/* 1. Nút Next (Màu Xanh Đậm Hoàng Gia) */
+.btn-gradient {
+  background: #001529 !important; /* Màu xanh đen */
+  color: #d4af37 !important; /* Chữ màu vàng kim */
+  border: 1px solid #d4af37 !important; /* Viền vàng */
+  margin: 0 10px !important;
+  padding: 0 45px !important;
+  text-transform: uppercase !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 4px !important; /* Góc vuông nhẹ, cứng cáp */
+  font-weight: bold !important;
+  height: 45px !important;
+  letter-spacing: 1px !important;
+}
+
+.btn-gradient:hover {
+  background: #d4af37 !important; /* Đổi nền thành vàng */
+  color: #001529 !important; /* Chữ thành xanh */
+  box-shadow: 0 0 15px #d4af37 !important; /* Phát sáng vàng */
+  transform: translateY(-2px) !important;
+}
+
+/* 2. Nút Submit (Màu Vàng Kim Nổi Bật) */
+.btn-submit {
+  background: linear-gradient(45deg, #ffd700, #fdb931) !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+/* 3. Nút Previous (Đơn giản) */
+.btn-ghost {
+  background: transparent !important;
+  border: 1px solid #aaa !important;
+  color: #555 !important;
+  border-radius: 4px !important;
+  height: 45px !important;
+  padding: 0 30px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  margin: 0 10px !important;
+}
+
+.btn-ghost:hover {
+  border-color: #000 !important;
+  color: #000 !important;
+}
