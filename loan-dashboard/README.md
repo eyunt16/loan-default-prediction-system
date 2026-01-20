@@ -59,11 +59,13 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### 1. Clone the Project
 
-````bash
-git clone [https://github.com/eyunt16/loan-default-prediction-system.git](https://github.com/eyunt16/loan-default-prediction-system.git)
-cd loan-default-prediction-system
-'''
----
+```bash
+
+git clone https://github.com/eyunt16/loan-prediction-system.git
+
+cd loan-prediction-system
+
+```
 
 ### 2. Backend Setup
 
@@ -72,7 +74,7 @@ Navigate to the backend directory and install dependencies:
 ```bash
 cd backend
 pip install pyspark flask flask-cors numpy
-````
+```
 
 ---
 
