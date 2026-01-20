@@ -4,10 +4,11 @@
 
 - **📂 Final Report:** [Click to view PDF](./docs/Report_ScalableandDistributedComputing.pdf)
 - **📊 Presentation Slides:** [Click here to view on Canva](https://www.canva.com/design/DAG-4c6iZh0/IDOeT5-IzSIquWwjS0IDuA/edit?utm_content=DAG-4c6iZh0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-  ![Status](https://img.shields.io/badge/Status-Finished-success?style=flat-square)
-  ![Spark](https://img.shields.io/badge/Big_Data-Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-  ![Python](https://img.shields.io/badge/Backend-Flask_Python-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![React](https://img.shields.io/badge/Frontend-ReactJS-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+![Status](https://img.shields.io/badge/Status-Finished-success?style=flat-square)
+![Spark](https://img.shields.io/badge/Big_Data-Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Python](https://img.shields.io/badge/Backend-Flask_Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/Frontend-ReactJS-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 > **Final Project / Capstone Project**
 > A Full-stack Big Data Application that utilizes **Apache Spark** for decision-tree based credit scoring, served via a **Flask API** and visualized on a **React Dashboard**.
@@ -58,10 +59,9 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### 1. Clone the Project
 
-```bash
-git clone https://github.com/your-username/loan-prediction-system.git
+````bash
+git clone [https://github.com/](https://github.com/)<eyunt16>/loan-prediction-system.git
 cd loan-prediction-system
-```
 
 ### 2. Backend Setup
 
@@ -70,7 +70,7 @@ Navigate to the backend directory and install dependencies:
 ```bash
 cd backend
 pip install pyspark flask flask-cors numpy
-```
+````
 
 ### 3. Frontend Setup
 
@@ -117,8 +117,9 @@ python app.py
 3. Start the React application:
 
 ```bash
-npm start
-cd frontend
+cd loan-dashboard
+npm run dev
+
 ```
 
 ## The application will open automatically at: http://localhost:5173/
@@ -157,7 +158,7 @@ Once the system is running, use these values in the **Loan Application Form** to
 
 **Nguyen Thi My Tuyen**
 
-- **Project:** Scalable Loan Default Prediction System
+- **Project:** Loan Default Prediction System
 - **University:** International University
 
 ---
